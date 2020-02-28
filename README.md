@@ -1,8 +1,10 @@
 # Team Name: YOLO
 ## Team-leads: Chang Li and Agaz Wani
-### Team Members: Alex Dean, Nathan W. Van Bibber, Yibo Dong, Peter Radulovic, 
+### Team Members: Alex Dean, Nathan W. Van Bibber, Yibo Dong, Peter Radulovic 
 ### Cosulting Team: Dr. Xiaoming Lui and Dr. Greg Herbert
 
+## Abstract
+In present study we report the establishment of a GUI-based pipeline for training machine learning algorithms on taxonomic microbiome data. Our pipeline expands access of computational tools to researchers in non-computational specialties to improve cross-disciplinary study. As a proof of concept, we successfully utilized our pipeline to train a predictive algorithm for obesity rates based upon orthogonal taxonomic units (OTUs) which may be applied toward generating health-related features from clinical, historical, or forensic samples. Our code utilizes three methods: K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and AdaBoost to achieve respective accuracies near eighty-four, ninety-one, and eighty-six percent. Both KNN and SVM utilized a 10-fold cross-validation to prevent overtraining. Under this method, training was achieved near instantaneously on a standard 16 GB MacBook to demonstrate feasibility. Outputs are processed into interactive graphical visualizations to improve ease-of-use. Although previous projects have utilized these computational techniques toward processing microbiomic data, our pipeline removes barriers to use for researchers without coding backgrounds while streamlining efficiency for all.
 
 ## Objectives
 In this project we will try to answer some questions using machine learning methods.
